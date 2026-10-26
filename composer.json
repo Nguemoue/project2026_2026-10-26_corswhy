@@ -1,0 +1,14 @@
+{
+  "name": "nguemoue/corswhy",
+  "description": "One-file PHP CLI that explains why the browser blocked a cross-origin request and prints the fix. Zero dependencies.",
+  "type": "project",
+  "license": "MIT",
+  "bin": ["corswhy.php"],
+  "require": {
+    "php": ">=8.1"
+  },
+  "scripts": {
+    "test": "php tests/self-test.php",
+    "demo": "php corswhy.php --demo"
+  }
+}
